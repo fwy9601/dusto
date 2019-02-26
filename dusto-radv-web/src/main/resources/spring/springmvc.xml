@@ -17,6 +17,9 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 	
+	<mvc:resources location="/css/" mapping="/css/**"></mvc:resources>
+	<mvc:resources location="/js/" mapping="/js/**"></mvc:resources>
+	
 	<dubbo:application name="dusto-radv-web" />
 	<dubbo:registry protocol="zookeeper" address="192.168.25.154:2181" />
 	<!-- <dubbo:registry interface="cn.e3mall.service.ItemService" ref="itemService" /> -->
