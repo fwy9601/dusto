@@ -33,6 +33,5 @@
 		<module>dusto-radv-interface</module>
 		<module>dusto-radv-pojo</module>
 		<module>dusto-radv-service</module>
-		<module>dusto-radv-web</module>
 	</modules>
 </project>
